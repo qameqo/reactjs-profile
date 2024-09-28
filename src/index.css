@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* > * {
+  font-family: "cursive", sans-serif;
+}
+
+html {
+  background: url(/public/wallpaper.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+}
+
+/* .grid > div {
+  color: #fff;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 1em 2em;
+} */
+
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
